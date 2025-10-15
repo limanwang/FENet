@@ -6,9 +6,7 @@
 
 This is the Pytorch implementation for the paper "FENet: Focusing Enhanced Network for Lane Detection" 
 
-This paper has been accepted to ICME 2024.
-
-The paper is available at [arXiv](https://arxiv.org/abs/2312.17163).
+The paper is available at [arXiv](https://arxiv.org/abs/2312.17163) and [IEEE](https://ieeexplore.ieee.org/document/10687857).
 
 - FENet: Focusing Enhanced Network for Lane Detection
 - [Introduction](#introduction)
@@ -204,14 +202,19 @@ All the scene metrics are tested in mF1. The Partial Field of View Evaluation ab
 
 ## Citation
 ```
-@article{wang&zhong_2024fenet,
-      title={FENet: Focusing Enhanced Network for Lane Detection}, 
-      author={Liman Wang and Hanyang Zhong},
-      year={2024},
-      eprint={2312.17163},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@INPROCEEDINGS{10687857,
+  author={Wang, Liman and Zhong, Hanyang},
+  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={FENet: Focusing Enhanced Network for Lane Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={Inspired by human driving focus, this research pioneers networks augmented with Focusing Sampling, Partial Field of View Evaluation, Enhanced FPN architecture and Directional IoU Loss - targeted innovations addressing obstacles to precise lane detection for autonomous driving. Experiments demonstrate our Focusing Sampling strategy, emphasizing vital distant details unlike uniform approaches, significantly boosts both benchmark and practical curved/distant lane recognition accuracy essential for safety. While FENetV1 achieves state-of-the-art conventional metric performance via enhancements isolating perspective-aware contexts mimicking driver vision, FENetV2 proves most reliable on the proposed Partial Field analysis. Hence we specifically recommend V2 for practical lane navigation despite fractional degradation on standard entire-image measures. Future directions include collecting on-road data and integrating complementary dual frameworks to further breakthroughs guided by human perception principles. The Code is available at here.},
+  keywords={Measurement;Accuracy;Lane detection;Focusing;Benchmark testing;Safety;Reliability},
+  doi={10.1109/ICME57554.2024.10687857},
+  ISSN={1945-788X},
+  month={July},}
 ```
 
 ## Acknowledgement
